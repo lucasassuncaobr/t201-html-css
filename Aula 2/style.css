@@ -1,0 +1,26 @@
+a{
+    text-decoration: none; background-color: #000000;
+    color: rgb(47, 179, 255);
+    display: inline-block;
+    width: 500px; /*definir largura */
+    height: 50px; /*alinhar texto no centro*/
+    line-height: 50px;/*definir alutura da linha*/
+    text-align: center; /*alinhar texto no centro*/
+    margin: 10px;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: black;
+    background-color:rgb(47, 179, 255)
+}
+/*block, infine e inline-block */
+
+/*
+
+Abrir comentário 
+SHIFT + Alt + A 
+ou 
+CTRL + ;
+*/

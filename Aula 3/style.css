@@ -1,0 +1,54 @@
+.linkAbsolut {
+    text-decoration: none; 
+    background-color: #000000;
+    color: rgb(47, 179, 255);
+    display: inline-block;
+    width: 100%; /*definir largura */
+    height: 50px; /*alinhar texto no centro*/
+    line-height: 50px;/*definir alutura da linha*/
+    text-align: center; /*alinhar texto no centro*/
+    margin: 10px;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.linkAbsolut:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 179, 255);
+}
+
+
+.linkRelative {
+    text-decoration: none; 
+    background-color: rgb(47, 179, 255);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 100%; /*definir largura */
+    height: 50px; /*alinhar texto no centro*/
+    line-height: 50px;/*definir alutura da linha*/
+    text-align: center; /*alinhar texto no centro*/
+    margin: 10px auto;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.linkRelative:hover {
+    color: rgb(47, 179, 255);
+    background-color: rgb(0, 0, 0);
+}
+    
+
+
+
+/*block, infine e inline-block */
+
+/*
+
+Abrir comentário 
+SHIFT + Alt + A 
+ou 
+CTRL + ;
+*/
+
+color: black;
+background-color:rgb(47, 179, 255)

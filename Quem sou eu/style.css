@@ -1,0 +1,26 @@
+
+
+/* fonte */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Cor do texto padrão */
+    font-size: 12pt;
+    display: block;
+    line-height: 50px; /* Definir altura da linha */
+    margin: 10px 0; /* Espaçamento vertical entre os links */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+
+a:hover {
+    color: rgb(47, 179, 255); 
+}
+
+/* Alinhamento dos ícones das redes sociais com o texto */
+.contact-link img {
+    vertical-align: middle;
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}

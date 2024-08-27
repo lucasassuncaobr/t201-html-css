@@ -1,15 +1,25 @@
-img{
-    
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-
+h1 {
+    color: #000000;
+    margin-top: 30px;
 }
 
-#seta {
-width: 100%;
+.container {
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
 }
 
-video {
-width: 100%;
+img {
+    width: 500px;
+    height: auto;
 }

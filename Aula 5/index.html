@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Posições</h1>
+
+    <br>
+
+    <h2>Posição Estática</h2>
+    <p>Um elemento com <strong>position: static</strong> não está posicionado de nenhuma maneira especial; ele está sempre posicionado de acordo com o fluxo da página.</p>
     
+    <p>Na posição static, os elementos não são afetados pelas propriedades: top, left, right e bottom.</p>
+    <div id="static">Position Static</div>
+
+    <hr>
+
+    <h2>Posição Relativa</h2>
+    <p>Um elemento com <strong>position: relative</strong> é posicionado em relação à sua posição normal.</p>
+    <p>Nessa posição, os elementos são afetados pelas propriedades: top, left, right e bottom.</p>
+    <p>O conteúdo não vai se ajustar para se encaixar no espaço deixado pelo elemento.</p>
+    <div id="relative">Position Relative</div>
+
+    <hr>
+
+    <h2>Posição Fixa</h2>
+    <p>Um elemento com <strong>position: fixed</strong> é posicionado em relação à janela de visualização. Mesmo que você role a página, o elemento permanece fixo no mesmo lugar.</p>
+    <div id="fixed">Position Fixed</div>
+
+    <hr>
+
+    <h2>Posição Absoluta</h2>
+    <p>Um elemento com <strong>position: absolute</strong> é posicionado em relação ao seu ancestral mais próximo que não tenha a posição <strong>static</strong>. Se não houver tal ancestral, é posicionado em relação ao elemento <strong>html</strong>.</p>
+
+    <div id="ancestral">Ancestral
+    <div id="absolute">Position Absolute</div>
+
+    <hr>
+
+    <h2>Posição Sticky</h2>
+    <p>Um elemento com <strong>position: sticky</strong> se comporta como <strong>relative</strong> até que atinja um determinado ponto de rolagem, quando então se comporta como <strong>fixed</strong>.</p>
+    <div id="sticky">Position Sticky</div>
 </body>
 </html>

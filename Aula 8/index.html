@@ -1,26 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minhas redes sociais</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-      <h1>Lucas Assunção</h1>
-      <h2>Html/CSS</h2>
+        <h1>Meu Site Responsivo</h1>
     </header>
+    
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </nav>
+    
     <main>
-      <a href="https://www.instagram.com">
-        <button>Instagram</button>
-      </a>
-      <a href="https://www.linkedin.com/in/warren">
-        <button> LinkedIn</button>
-      </a>
-      <a href="https://github.com/lucasassuncaobr">
-        <button> Github</button> 
-      </a>
+        <div id="colunaUm">
+            <section>
+                <h2>Sessão 1</h2>
+                <p>Lucas Assunção. 28 de Agosto de 2024</p>
+                <div class="imgSection">Imagem</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eveniet. Est suscipit consequatur quam velit! Eum, doloremque ullam voluptate quibusdam nobis architecto minima necessitatibus fuga, nulla laboriosam ipsam molestias consequuntur.</p>
+            </section>
+            
+            <section>
+                <h2>Sessão 2</h2>
+                <p>Lucas Assunção. 28 de Agosto de 2024</p>
+                <div class="imgSection">Imagem</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eveniet. Est suscipit consequatur quam velit! Eum, doloremque ullam voluptate quibusdam nobis architecto minima necessitatibus fuga, nulla laboriosam ipsam molestias consequuntur.</p>
+            </section>
+            
+            <section>
+                <h2>Contato:</h2>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="firstName">Primeiro Nome:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="firstName" placeholder="Digite seu nome...">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lastName">Último Nome:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lastName" placeholder="Digite seu sobrenome...">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" placeholder="Digite seu email...">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Mensagem:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="message" placeholder="Digite sua mensagem..." rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <button>Enviar</button>
+                </div>
+            </section>
+        </div>
+        
+        <div id="colunaDois">
+            <section>
+                <h2>Sobre Mim</h2>
+                <div class="imgSection">Imagem</div>
+            </section>
+            
+            <section>
+                <h2>Postagens Populares</h2>
+                <div class="imgSection">Imagem</div>
+                <div class="imgSection">Imagem</div>
+                <div class="imgSection">Imagem</div>
+            </section>
+            
+            <section>
+                <h2>Redes Sociais</h2>
+                <p>Ícones aqui...</p>
+            </section>
+        </div>
     </main>
-  </body>
+    <footer>
+        Desenvolvido por Lucas Assunção
+    </footer>
+</body>
 </html>
+

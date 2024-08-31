@@ -1,82 +1,166 @@
+/* Estilos gerais */
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-#headerContainer {
-    background: url(close-up-de-maos-barista-faca-latte-arte-cafe-pintura_1150-12161.jpg) no-repeat center center;
+:root {
+    --background: #e2d9c8;
+    --offwhite: #f1f0ee;
+    --fontcolor: #30261c;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--background);
+}
+
+section {
     width: 80%;
-    height: 350px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Estilos para o header */
+#header {
+    background: url('close-up-de-maos-barista-faca-latte-arte-cafe-pintura_1150-12161.jpg') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#filtro {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 header {
-    background: plum;
-    width: 80%;
+    width: 95%;
     height: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
 
 #logo {
-    background: purple;
     width: 100px;
     height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
 }
 
 nav {
     display: flex;
-    background: purple;
     width: 500px;
     height: 90%;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
+   text-decoration: none; 
+   color: var(--offwhite);
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 #pesquisa {
-    background: purple;
     width: 100px;
     height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#texting {
-    background: red;
-    width: 80%;
-    height: 200px;
-    margin: 0 auto;
+#pesquisa img {
+    width: 40px;
 }
 
-#textImg{
-    color: white;
+/* Estilos para o texto e botão */
+#textImg {
     width: 80%;
     height: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 280px;
     justify-content: center;
-    
+}
+
+#firstP {
+    font-weight: bold;
+}
+
+#secondP {
+    font-weight: bolder;
+    font-size: 30px;
+    width: 500px;
+    max-width: 500px;
 }
 
 #textImg a {
     text-decoration: none;
-    color: black;
-    background: white;
+    color: var(--fontcolor);
+    background: var(--offwhite);
     border-radius: 9999px;
     display: block;
-    width: 100px;
-    padding: 15px;
+    width: 120px;
+    padding: 10px;
     text-align: center;
     margin-top: 20px;
-    
+}
+
+/* Estilos para o menu de ícones */
+section#menuIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: var(--fontcolor);
+    font-weight: bold;
+}
+
+section#menuIcons .opcMenu {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.opcMenu div {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos para a seção de imagens de café */
+section#coffees {
+    height: 800px;
+    background: var(--offwhite);
+    padding: 20px 0;
+}
+
+.coffee-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.coffee-image {
+    width: 23%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }

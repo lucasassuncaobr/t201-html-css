@@ -178,6 +178,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .gridCoffee:last-child {
@@ -371,3 +372,116 @@ section#clientes h2 {
     font-weight: bold;
     color: var(--fontcolor);
 }
+
+section#subscribe {
+    display: flex;
+    background: var(--background);
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: var(--fontcolor);
+}
+
+section#subscribe > div {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+section#subscribe #subscriveDivC {
+    width: 50%;
+    
+}
+
+section#subscribe #subscriveDivC h2, p {
+    text-align: center;
+}
+
+section#subscribe #subscriveDivC > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section#subscribe #subscriveDivC input{
+    width: 75%;
+    height: 50px;
+}
+
+section#subscribe #subscriveDivC input::placeholder {
+    padding-left: 20px;
+}
+
+#coffeeBg2-1 {
+    background: url('assets/imagens/coffeeBg/coffeebg21.png') no-repeat center center/cover;
+}
+
+#subscribe input {
+    border-radius: 50px;
+    border: none;
+}
+
+#subscribe a {
+    background: var(--fontcolor);
+    color: var(--offwhite);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 9999px;
+    display: block;
+    text-align: center;
+    height: 45px;
+}
+
+#coffeeBg2-2 {
+    background: url('assets/imagens/coffeeBg/coffeebg22.png') no-repeat center center/cover;
+}
+
+
+#coffeeBg2-3 {
+    background: url('caminho/para/imagem3.jpg') no-repeat center center/cover;
+}
+
+#coffeeBg2-4 {
+    background: url('caminho/para/imagem4.jpg') no-repeat center center/cover;
+}
+
+footer {
+    height: 250px;
+    background: var(--fontcolor);
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+  footer > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--offwhite);
+
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color: var(--background);
+    font-size: 8pt;
+    display: block;
+    margin: 15px;
+  }
+
+
+  @media (max-width: 580px) {
+    .gridCoffee {
+      justify-content: center;
+    }
+    .gridCoffee > div {
+      margin-bottom: 10px;
+    }
+  }
